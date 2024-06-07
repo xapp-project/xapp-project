@@ -69,7 +69,7 @@ If an application fulfills all above criteria and is supposed to be added to the
 >
 > This application follows the standards defined in the [Xapp specification v1.0.0](insert link here) and as such will run fine on linux desktop environments which support freedesktop.org standards. The UI of this application will be well integrated on desktop environments which support the xapp standard.
 
-The xapp project provides a set of [project-properties](https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization) which allows to filter xapp projects for supported operating systems, the used license, the used toolkit and supported display servers. Please set these project-properties for your project accordingly.  
+The xapp project provides a set of [project-properties](https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization) which allows to filter xapps for supported operating systems, the used license, the used toolkit and supported display servers. Please set these project-properties for your project accordingly.  
 
 ### Repository Location
 
