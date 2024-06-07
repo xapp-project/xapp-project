@@ -73,7 +73,7 @@ The xapp project provides a set of [project-properties](https://docs.github.com/
 
 ### Repository Location
 
-Once an application is approved as a xapp application, it either is hosted directly by the Xapp project (so that the native issue tracker, git repository and infrastructure is used) or its repository is mirrored to the xapp project. On choosing the latter, the xapp project page will hide the possibility to file issues and show a link to the original repository location.
+Once an application is approved as an xapp application, it is either hosted directly by the Xapp project (so that the native issue tracker, git repository and infrastructure is used) or its repository is mirrored to the xapp project. On choosing the latter, the xapp project page will hide the possibility to file issues and show a link to the original repository location.
 
 ## Violations
 
