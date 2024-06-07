@@ -59,7 +59,7 @@ User theming has to be supported by xapps (TODO: Where is the spec for general t
 
 ### Desktop Environment Agnostic
 
-If the same windowing, theme and icon theme is used, XApps are supposed to look the same on each Linux desktop environment they run on. As such, they should not have dependencies to desktop-specific styles.
+If the same windowing, theme and icon theme is used, XApps are intended to be visually consistent across Linux desktop environments. As such, they should not have dependencies to desktop-specific styles.
 
 ### Identification as xapp application
 
