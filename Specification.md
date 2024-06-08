@@ -8,7 +8,7 @@ In order to be shown on the xapp project, applications need to fulfill a list of
 
 ### Licensing
 
-Xapps need to be licensed on an [OSI-approved license](https://opensource.org/licenses).
+Xapps need to be licensed under an [OSI-approved license](https://opensource.org/licenses).
 
 ### Operating System
 
