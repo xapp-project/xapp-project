@@ -20,7 +20,7 @@ This project targets graphical applications which run on desktop systems and dep
 
 ### Usage of standards
 
-In order to be desktop-environment agnostic, the compliance to the following [freedesktop.org](https://www.freedesktop.org) standards is mandatory to be listed as an xapp:
+In order to be desktop-environment agnostic, xapps must comply with the following [freedesktop.org](https://www.freedesktop.org) standards when they apply to functionality included in the application.
 
 - [Xdg Autostart](https://www.freedesktop.org/wiki/Specifications/autostart-spec/)
 - [Xdg Base Directories](https://www.freedesktop.org/wiki/Specifications/basedir-spec/)
