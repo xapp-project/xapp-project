@@ -41,15 +41,9 @@ TBD: Not sure on these:
 
 Applications which are part of the XApp project should support server side window decorations and use them by default. XApps are free to optionally as well support client side decorations [^1].
 
-### Menus
-
-If menus are required for a XApps, traditional menu bars should be used by default. It is fine to optionally support e.g. hamburger menus [^2].
-
-TBD: Do we want to force a default on this?
-
 ### Theming
 
-User theming has to be supported by XApps (TODO: Where is the spec for general theming?) [^3]
+User theming has to be supported by XApps (TODO: Where is the spec for general theming?) [^2]
 
 ### Desktop Environment Agnostic
 
@@ -75,7 +69,5 @@ If an application which is listed as XApp violates one of the above requirements
 
 [^1]: Using server side decorations for applications enables users to have more control on window decorations and allows them to share the same decoration-style across installed applications. Whereas, applications using client side decorations can look very out of place by forcing a different set and style of window buttons on foreign locations, leading to style fragmentation and a poor user experience. We want to have a good user experience by default and as such request the usage of server side decorations as default for XApps.
 
-[^2]: TBD: Why menubars
-
-[^3]: Point to concrete theming guidelines ... we really should have a XDG spec for this
+[^2]: Point to concrete theming guidelines ... we really should have a XDG spec for this
 
