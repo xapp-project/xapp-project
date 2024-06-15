@@ -2,19 +2,21 @@
 
 In order to be shown on the XApp project, applications need to fulfill a list of requirements. This specification is used in order to summarize these requirements and as such can be utilized to decide if an application can join the XApp project.
 
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
+
 ## Requirements
 
 ### Licensing
 
-XApps need to be licensed under an [OSI-approved license](https://opensource.org/licenses).
+XApps SHALL be licensed under an [OSI-approved license](https://opensource.org/licenses).
 
 ### Operating System
 
-XApps need to be able to run in a Linux environment. The support of other operating systems is optional.
+XApps MUST be able to run in a Linux environment. The support of other operating systems is optional.
 
 ### Usage of standards
 
-In order to be desktop-environment agnostic, XApps must comply with the following [freedesktop.org](https://www.freedesktop.org) standards when they apply to functionality included in the application.
+In order to be desktop-environment agnostic, XApps MUST comply with the following [freedesktop.org](https://www.freedesktop.org) standards when they apply to functionality included in the application.
 
 - [Xdg Autostart](https://www.freedesktop.org/wiki/Specifications/autostart-spec/)
 - [Xdg Base Directories](https://www.freedesktop.org/wiki/Specifications/basedir-spec/)
@@ -39,23 +41,23 @@ TBD: Not sure on these:
 
 ### Window decorations
 
-Applications which are part of the XApp project should support server side window decorations and use them by default. XApps are free to optionally as well support client side decorations [^1].
+Applications which are part of the XApp project MUST support server side window decorations and use them by default. XApps are free to optionally as well support client side decorations [^1].
 
 ### Theming
 
-User theming has to be supported by XApps (TODO: Where is the spec for general theming?) [^2]
+User theming MUST be supported by XApps (TODO: Where is the spec for general theming?) [^2]
 
 ### Desktop Environment Agnostic
 
-If the same windowing, theme and icon theme is used, XApps are intended to be visually consistent across Linux desktop environments. As such, they should not have dependencies to desktop-specific styles.
+If the same windowing, theme and icon theme is used, XApps SHOULD be visually consistent across Linux desktop environments. As such, they MUST NOT have dependencies to desktop-specific styles.
 
 ### Localization
 
-XApps are supposed to support localization. As such, there needs to be a standardized way to add/modify translations. For user interactions XApps should automatically use the system defined locale when possible.
+XApps SHALL support localization. As such, there needs to be a standardized way to add/modify translations. For user interactions XApps SHOULD automatically use the system defined locale when possible.
 
 ### Identification as XApp application
 
-If an application fulfills all above criteria and is supposed to be added to the XApp project, it has to add a paragraph to a README.md file located on the top level of its git project with the following text:
+If an application fulfills all above criteria and is supposed to be added to the XApp project, it SHOULD add a paragraph to a README.md file located on the top level of its git project with the following text:
 
 > ## XApp compliance
 >
@@ -64,7 +66,7 @@ If an application fulfills all above criteria and is supposed to be added to the
 The XApp project provides a set of [project-properties](https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization) which allows to filter XApps for supported operating systems, the used license, the used toolkit and supported display servers. Please set these project-properties for your project accordingly.  
 ### Communication
 
-Maintainers of projects which comply to the XApps specification should idle in the [XApp Matrix channel](https://matrix.to/#/#xapp:matrix.org) in order to simplify communication.
+Maintainers of projects which comply to the XApps specification SHOULD idle in the [XApp Matrix channel](https://matrix.to/#/#xapp:matrix.org) in order to simplify communication.
 
 ### Repository Location
 
@@ -72,7 +74,7 @@ Once an application is approved as an XApp application, it is either hosted dire
 
 ## Violations
 
-If an application which is listed as XApp violates one of the above requirements, the XApp staff can drop if from the XApps project. As such, the application should not advertise itself as a XApp compliant application anymore.
+If an application which is listed as XApp violates one of the above requirements, the XApp staff can drop if from the XApps project. As such, the application SHOULD NOT advertise itself as a XApp compliant application anymore.
 
 [^1]: Using server side decorations for applications enables users to have more control on window decorations and allows them to share the same decoration-style across installed applications. Whereas, applications using client side decorations can look very out of place by forcing a different set and style of window buttons on foreign locations, leading to style fragmentation and a poor user experience. We want to have a good user experience by default and as such request the usage of server side decorations as default for XApps.
 
