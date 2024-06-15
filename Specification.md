@@ -58,6 +58,9 @@ If an application fulfills all above criteria and is supposed to be added to the
 > This applications follows the standards defined in [version x.y.z of the XApp specification](insert link here), and should integrate well into any desktop environment that has adopted the XApp specification.
 
 The XApp project provides a set of [project-properties](https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization) which allows to filter XApps for supported operating systems, the used license, the used toolkit and supported display servers. Please set these project-properties for your project accordingly.  
+### Communication
+
+Maintainers of projects which comply to the XApps specification should idle in the [XApp Matrix channel](https://matrix.to/#/#xapp:matrix.org) in order to simplify communication.
 
 ### Repository Location
 
