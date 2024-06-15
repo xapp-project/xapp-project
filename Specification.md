@@ -49,6 +49,10 @@ User theming has to be supported by XApps (TODO: Where is the spec for general t
 
 If the same windowing, theme and icon theme is used, XApps are intended to be visually consistent across Linux desktop environments. As such, they should not have dependencies to desktop-specific styles.
 
+### Localization
+
+XApps are supposed to support localization. As such, there needs to be a standardized way to add/modify translations. For user interactions XApps should automatically use the system defined locale when possible.
+
 ### Identification as XApp application
 
 If an application fulfills all above criteria and is supposed to be added to the XApp project, it has to add a paragraph to a README.md file located on the top level of its git project with the following text:
