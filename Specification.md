@@ -14,10 +14,6 @@ Xapps need to be licensed under an [OSI-approved license](https://opensource.org
 
 Xapps need to be able to run in a Linux environment. The support of other operating systems is optional.
 
-### Graphical Desktop Application
-
-This project targets graphical applications which run on desktop systems and dependencies of them. E.g. console applications, kernel-modules and system-services cannot be xapps.
-
 ### Usage of standards
 
 In order to be desktop-environment agnostic, xapps must comply with the following [freedesktop.org](https://www.freedesktop.org) standards when they apply to functionality included in the application.
