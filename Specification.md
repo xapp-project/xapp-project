@@ -12,7 +12,7 @@ XApps SHALL be licensed under an [OSI-approved license](https://opensource.org/l
 
 ### Operating System
 
-XApps MUST be able to run in a Linux environment. The support of other operating systems is optional.
+XApps MUST be able to run in a Linux environment. Support for other operating systems is welcome, though optional.
 
 ### Usage of standards
 
