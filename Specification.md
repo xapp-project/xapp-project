@@ -41,11 +41,11 @@ TBD: Not sure on these:
 
 ### Window decorations
 
-Applications which are part of the XApp project MUST support server side window decorations and use them by default. XApps are free to optionally as well support client side decorations [^1].
+XApp project applications MUST support server-side window decorations, where applicable, but MAY also support client-side decorations. If both are supported, the determination of which to use by default should follow user and environment preferences, falling back to server-side if no default can be determined. Applications MAY allow users to configure them to use either decoration model.
 
 ### Theming
 
-User theming MUST be supported by XApps (TODO: Where is the spec for general theming?) [^2]
+User theming MUST be supported by XApps (TODO: Where is the spec for general theming?)
 
 ### Desktop Environment Agnostic
 
@@ -75,8 +75,4 @@ Once an application is approved as an XApp application, it is either hosted dire
 ## Violations
 
 If an application which is listed as XApp violates one of the above requirements, the XApp staff can drop if from the XApps project. As such, the application SHOULD NOT advertise itself as a XApp compliant application anymore.
-
-[^1]: Using server side decorations for applications enables users to have more control on window decorations and allows them to share the same decoration-style across installed applications. Whereas, applications using client side decorations can look very out of place by forcing a different set and style of window buttons on foreign locations, leading to style fragmentation and a poor user experience. We want to have a good user experience by default and as such request the usage of server side decorations as default for XApps.
-
-[^2]: Point to concrete theming guidelines ... we really should have a XDG spec for this
 
